@@ -41,6 +41,9 @@ class AppKernel extends Kernel
             new Sonata\AdminBundle\SonataAdminBundle(),
 
             new JavierEguiluz\Bundle\EasyAdminBundle\EasyAdminBundle(),
+
+            new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
+	    new Vich\UploaderBundle\VichUploaderBundle(),
         ];
 
         // Some bundles are only used while developing the application or during
