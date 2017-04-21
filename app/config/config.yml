@@ -96,3 +96,10 @@ sonata_block:
     blocks:
         sonata.admin.block.admin_list:
             contexts: [admin]
+
+easy_admin:
+    entities:
+        - AppBundle\Entity\Post
+        - AppBundle\Entity\Comment
+        - AppBundle\Entity\User
+        - AppBundle\Entity\Tag
